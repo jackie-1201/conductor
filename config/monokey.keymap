@@ -29,9 +29,14 @@
         };
 
         colon {
-            bindings = <&kp RS(SEMI)>;
-            key-positions = <17 18>;
+            bindings = <&kp COLON>;
+            key-positions = <17 16>;
             layers = <2>;
+        };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <3 2>;
         };
     };
 
