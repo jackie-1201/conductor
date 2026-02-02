@@ -7,6 +7,16 @@
 #define SCROLL 5
 #define NUM 6
 
+&mmv {
+    time-to-max-speed-ms = <500>;
+    acceleration-exponent = <1>;
+};
+
+&msc {
+    time-to-max-speed-ms = <500>;
+    acceleration-exponent = <1>;
+};
+
 &mt {
     flavor = "balanced";
     quick-tap-ms = <300>;
