@@ -91,8 +91,8 @@
 
         ARROW {
             bindings = <
-&kp RG(N4)  &kp RG(N1)  &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &kp INSERT                      &kp HOME        &kp RA(LEFT_ARROW)      &kp RA(UP_ARROW)  &kp RA(RIGHT)      &kp END
-&trans      &kp RG(N2)  &kp TAB          &kp LEFT_ALT       &kp LEFT_CONTROL                &kp LEFT_ARROW  &kp DOWN_ARROW          &kp UP_ARROW      &kp RIGHT_ARROW    &trans
+&trans      &kp RG(N1)  &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &kp INSERT                      &kp HOME        &kp RA(LEFT_ARROW)      &kp RA(UP_ARROW)  &kp RA(RIGHT)      &kp END
+&kp RG(N4)  &kp RG(N2)  &kp TAB          &kp LEFT_ALT       &kp LEFT_CONTROL                &kp LEFT_ARROW  &kp DOWN_ARROW          &kp UP_ARROW      &kp RIGHT_ARROW    &trans
 &trans      &kp RG(N3)  &trans           &trans             &trans                          &kp PAGE_DOWN   &kp RG(RS(LEFT_ARROW))  &kp RG(UP_ARROW)  &kp RG(RS(RIGHT))  &kp PAGE_UP
 &trans      &trans      &trans           &trans             &trans            &kp DELETE    &trans          &trans                                    &trans             &kp RA(F4)
             >;
